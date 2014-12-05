@@ -35,15 +35,33 @@
 	  $(".mymap").hide();
 	  
 	  $(".invi2b").click(function(){
-		$(".mymap").toggle();
+		$(".mymap").slideToggle();
 	  });
+	  
+	  $(".invi2a").click(function(){
+		$(".mymap").hide();
+	  });
+	  
+	  $(".invi1").click(function(){
+		$(".mymap").hide();
+	  });
+	  
+	  $(".rsvpsec").click(function(){
+		$(".mymap").hide();
+	  });
+	
+	
+	
+	
+	
+	
 	});
 	</script>
 </head>
 
 <body>
     <div class="invitationsec">
-        <div class="w-container invitationcont">
+        <div class="w-container invitationcont" style="padding-bottom:20px;">
             <div class="invi1"><img alt="547c9d9071f387fb424c29af_Invi1.jpg"
             src=
             "images/invi1.jpg"></div>
@@ -55,8 +73,8 @@
             "images/invi2b.jpg"></div>
 			<div class="w-container">
 			<center>
-			<div class="mymap" style="width:80%; height: 350px; border: 2px solid black;  z-index:9999; ">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3500.832152291545!2d77.456631!3d28.664744000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1edc6f8ac93%3A0x74f1cebc04432462!2sDiamond+Palace!5e0!3m2!1sen!2sin!4v1417785828849" width="100%" height="350px" frameborder="0" style="border:0"></iframe>
+			<div class="mymap" style="width:70%; height: 314px; border: 1px solid black;  z-index:9999; padding-bottom:30px; box-shadow: 5px 5px 5px #888888;">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3500.832152291545!2d77.456631!3d28.664744000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1edc6f8ac93%3A0x74f1cebc04432462!2sDiamond+Palace!5e0!3m2!1sen!2sin!4v1417785828849" width="100%" height="310px" frameborder="0" style="border:0"></iframe>
 			</div>
 			</center>
 			</div>
@@ -68,7 +86,7 @@
 	
 
 	
-    <div class="rsvpsec" style="margin-top: 20px;">
+    <div class="rsvpsec">
         <div class="w-container rsvpcont">
             <div class="w-row rsvprow">
                 <div class="w-col w-col-4 rsvpform">
